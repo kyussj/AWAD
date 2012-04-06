@@ -1,4 +1,8 @@
 Awad::Application.routes.draw do
+  get "base_pages/home"
+
+  get "base_pages/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
